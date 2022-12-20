@@ -11,7 +11,6 @@ const Results = ({ pets }) => {
           pets.map(pet => (
             <Pet
               animal={pet.animal}
-              name={pet.name}
               id={pet.id}
               breed={pet.breed}
               images={pet.images}
